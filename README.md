@@ -26,7 +26,7 @@ Following best practices for java
 6) Optimize loops & use streams where possible
     Ex. ArrayList<String> newArray = new ArrayList<>();
       newArray.stream().forEach(System.out::println);
-7) 
+
 
 
      
