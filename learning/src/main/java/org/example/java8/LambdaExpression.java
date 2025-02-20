@@ -27,8 +27,11 @@ public class LambdaExpression {
         NewInterface obj; // interface intentiation is allowed in java but not obj creation
 
         /**
-         * When we have method in side a block of code, its called as class
-         * so, here its a Anonymous class as it has no name
+         * 1) When we have method in side a block of code, its called as class
+         *           so, here its a Anonymous class as it has no name
+         * 2) We can create an Anonymous class for concrete class(normal classes)
+         *         but we can not express it as a lambda expression
+         *
          */
 //        obj = new NewInterface() {
 //            @Override
@@ -55,10 +58,15 @@ public class LambdaExpression {
          */
 
         obj = () -> System.out.println("Creating anonymous class ");
-        // So this one line of code called a lambda expression
-        // -> this ero indicates that "()" belongs to "System.out.println("Creating anonymous class ");"
-        // If we have one parameter only, than we can write it like ( obj = i -> System.out.println("Creating anonymous class ");)
-        // The use of lambda is , to avoid creating any inner class..
+        /**
+         * So this one line of code called a lambda expression
+         *  This ero "->" indicates that "()" belongs to "System.out.println("Creating anonymous class ");"
+         *  If we have one parameter only, than we can write it like
+         *      ( obj = i -> System.out.println("Creating anonymous class ");) without "()"
+         *   The use of lambda is , to avoid creating any inner class..
+         *       and for functional interface which has only one method
+         */
+        //
         obj.run();
     }
 }
