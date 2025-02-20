@@ -1,0 +1,6 @@
+Use case of Generics in java
+     * 1) Type safety (To use correct type of object and avoid compile type error)
+     * 2) Reusability  (To use any type of object in methods and class
+     * 3) Avoid casting (To avoid type casting)
+     * 4) Bounded type Parameters
+     * 5) Wildcard(?) (To provide flexibility while working with different data type)
