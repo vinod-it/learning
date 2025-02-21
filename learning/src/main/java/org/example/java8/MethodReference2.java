@@ -34,7 +34,12 @@ public class MethodReference2 {
         //          OR
 
 
-
+       // function callin in lambda expression
         mp.print(str,(s)->StringParse.convert(s));
+
+        //         OR
+
+        // function calling as method reference
+        mp.print(str,StringParse::convert);
     }
 }
