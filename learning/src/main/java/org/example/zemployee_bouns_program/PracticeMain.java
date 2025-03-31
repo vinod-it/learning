@@ -1,7 +1,7 @@
-package org.example.entrypoints;
+package org.example.zemployee_bouns_program;
 
-import org.example.practice.Bonus;
-import org.example.practice.Employee;
+import org.example.zemployee_bouns_program.practice.Bonus;
+import org.example.zemployee_bouns_program.practice.Employee;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
