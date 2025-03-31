@@ -1,6 +1,6 @@
-package org.example.practice;
+package org.example.zemployee_bouns_program.practice;
 
-import static org.example.utils.Constants.BONUS_RATE;
+import static org.example.zemployee_bouns_program.utils.Constants.BONUS_RATE;
 
 public class Bonus {
     // constant value for each employee

@@ -1,4 +1,4 @@
-package org.example.practice;
+package org.example.zemployee_bouns_program.practice;
 
 public class Employee {
     protected double salary;
