@@ -15,6 +15,10 @@ public class TimeSpaceComplexity {
       *   O(n^2): Quadratic time
       *   O(2^n): Exponential time
       *   O(n!) : Factorial time
+      *
+      * Note : if we gets any constant in complexity , that can be ignored
+      * example any loop runs n/2 times so the time complexity will be considered
+      * n only
       * */
 
     public static void main(String args[]){
@@ -37,6 +41,11 @@ public class TimeSpaceComplexity {
                System.out.println("hello"); // so, it is n x n = n^2
            }
        }
+
+        // time complexity = O(n/2) which is equal to O(n)
+        for(int i=1; i<n/2; i++){//
+                System.out.println("hello");
+            }
 
 
 
